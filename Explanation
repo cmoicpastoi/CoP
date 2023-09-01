@@ -13,13 +13,16 @@
 ## Ansible & Terraform & Cloud formation (IaC)
 - Ansible
   소프트웨어 설정 및 자동 프로비저너
-  
+  클라우드 플랫폼, 호스트, 하이퍼바이저 및 서버 프로비저닝 제공
 - Terraform
   인프라 설정 및 자동 프로비저너
   Json 형식
+  디스크 또는 프로비저닝 컴퓨터에 상태 저장
 - CF
   AWS 제공 관리형 서비스
   Json 및 Yaml 파일 둘다 처리 가능
+  스택내에서 상태 관리
+
 ## Docker & Compose & Swarm
 
 - Docker
