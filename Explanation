@@ -39,9 +39,11 @@
   AWS 자체 개발하여 제공하는 컨테이너 서비스
 - EKS
   master 노드를 aws에서 관리해주는 k8s 클러스터 서비스
+  자체 쿠버네티스 컨트롤 플레인을 구축하거나 유지할 필요 없이 AWS에서 쿠버네티스를 실행할 수 있는 관리형 서비스
 - Fargate
   컨테이너 관리 플랫폼 CPU/MEM이 클러스터 관리용으로 일부 소비되는게 아니라 K8S 관련 프로세스들을 자원을 소모
   Fargate는 비지니스 본연에만 집중
+
 ## Kubernetes & Rancher
 - Kubernetes
   컨테이너화된 애플리케이션의 배포
@@ -52,7 +54,9 @@
 
 ## Helm & Harbor & ECR & S3
 - Helm
-
+  쿠버네티스 오픈 소스 패키지 매니저
+  Kubernetes용으로 구축된 소프트웨어를 제공, 공유 및 사용할 수 있는 기능을 제공
+  Helm 은 chart라는 패키지 형식을 사용
 - Harbor
   Docker Hub 처럼 이미지를 저장할 수 있는 저장소
   RBAC, web page, image scan 같은 편리한 기능을 추가
@@ -61,6 +65,8 @@
   Amazon ECR은 AWS IAM을 사용하여 리소스 기반 권한으로 프라이빗 도커 리포지토리를 지원
   Docker CLI를 사용하여 이미지를 푸시, 가져오기 및 관리
 - S3
+  helm repo add my-helm-charts s3://my-helm-charts/charts 와 같이 k8s 이미지 레포지토리로 사용가능
+  AWS 객체 스토리지 다양한 데이터 저장 검색 가능
 
 ## Jenkins & Tekton
 - Jenkins 
