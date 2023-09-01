@@ -24,15 +24,16 @@
   스택내에서 상태 관리
 
 ## Docker & Compose & Swarm
-
 - Docker
-
+  소프트웨어를 컨테이너라는 표준화된 유닛으로 패키징(라이브러리, 시스템 도구, 코드, 런타임 등 포함) 
+  사용 환경에 구애받지 않고 애플리케이션 배포 및 확장
 - Compose
-
+  여러 개의 도커 컨테이너를 동시에 실행하는 툴
+  싱글 호스트
 - Swarm
-
+  컨테이너 클러스터 관리 툴
+  별도의 멀티 호스트로 구성
 ## ECS & EKS & Fargate
-
 - ECS
 
 - EKS
@@ -40,13 +41,11 @@
 - Fargate
 
 ## Kubernetes & Rancher
-
 - Kubernetes
 
 - Rancher
 
 ## Helm & Harbor & ECR & S3
-
 - Helm
 
 - Harbor
@@ -56,13 +55,11 @@
 - S3
 
 ## Jenkins & Tekton
-
 - Jenkins 
 
 - Tekton
 
 ## ArgoCD & Chef & Puppet
-
 - ArgoCD
 
 - Chef
@@ -70,5 +67,4 @@
 - Puppet
 
 ## Istio
-
 -Istio
