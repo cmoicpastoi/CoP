@@ -28,14 +28,21 @@
 
 ## Helm & Harbor & ECR & S3
 
-- 
+- Helm
+- Harbor
+- ECR
+- S3
 
 ## Jenkins & Tekton
 
-- 
+- Jenkins 
+- Tekton
 
 ## ArgoCD & Chef & Puppet
 
-- 
+- ArgoCD
+- Puppet
 
 ## Istio
+
+-Istio
