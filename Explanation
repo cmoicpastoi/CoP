@@ -44,16 +44,22 @@
   Fargate는 비지니스 본연에만 집중
 ## Kubernetes & Rancher
 - Kubernetes
-
+  컨테이너화된 애플리케이션의 배포
+  확장 및 관리를 자동화하도록 설계된 오픈 소스 컨테이너 오케스트레이션 플랫폼
 - Rancher
+  컨테이너 오케스트레이션 관리 툴(Docker swarm, k8s 등 지원)
+  다양한 환경(온프레미스, 클라우드 또는 하이브리드)에서 여러 Kubernetes 클러스터를 관리할 수 있는 통합 인터페이스를 제공
 
 ## Helm & Harbor & ECR & S3
 - Helm
 
 - Harbor
-
+  Docker Hub 처럼 이미지를 저장할 수 있는 저장소
+  RBAC, web page, image scan 같은 편리한 기능을 추가
+  Harbor 는 GUI로 많은 것들을 할 수 있어서 정말 편리
 - ECR
-
+  Amazon ECR은 AWS IAM을 사용하여 리소스 기반 권한으로 프라이빗 도커 리포지토리를 지원
+  Docker CLI를 사용하여 이미지를 푸시, 가져오기 및 관리
 - S3
 
 ## Jenkins & Tekton
