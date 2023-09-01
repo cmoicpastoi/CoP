@@ -1,46 +1,61 @@
 ## Git & Gitlab
 
 - Git
+
 - Gitlab
 
 ## Ansible & Terraform & Cloud formation
 
 - Ansible
+
 - Terraform
+
 - CF
 
 ## Docker & Compose & Swarm
 
 - Docker
+
 - Compose
+
 - Swarm
 
 ## ECS & EKS & Fargate
 
 - ECS
+
 - EKS
+
 - Fargate
 
 ## Kubernetes & Rancher
 
 - Kubernetes
+
 - Rancher
 
 ## Helm & Harbor & ECR & S3
 
 - Helm
+
 - Harbor
+
 - ECR
+
 - S3
 
 ## Jenkins & Tekton
 
 - Jenkins 
+
 - Tekton
 
 ## ArgoCD & Chef & Puppet
 
 - ArgoCD
+
+- Chef
+
 - Puppet
 
 ## Istio
