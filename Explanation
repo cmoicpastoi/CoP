@@ -36,11 +36,12 @@
 
 ## ECS & EKS & Fargate
 - ECS
-
+  AWS 자체 개발하여 제공하는 컨테이너 서비스
 - EKS
-
+  master 노드를 aws에서 관리해주는 k8s 클러스터 서비스
 - Fargate
-
+  컨테이너 관리 플랫폼 CPU/MEM이 클러스터 관리용으로 일부 소비되는게 아니라 K8S 관련 프로세스들을 자원을 소모
+  Fargate는 비지니스 본연에만 집중
 ## Kubernetes & Rancher
 - Kubernetes
 
